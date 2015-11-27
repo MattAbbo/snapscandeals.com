@@ -15,6 +15,7 @@
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
                   <%= image_tag "products/cape-town/#{p.id}.png" %>
+                  <div align="center" valign="center" class="sale">SAVE <%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%</div>
                     <div class="caption">
                         <h4><%= p.title %></h4>
                         <h5><%= link_to p.merchant, p.url %></h5>

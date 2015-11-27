@@ -153,6 +153,12 @@
  	font-weight: 700;
  }
 
+ h4
+ {
+   font-size: 1.3em;
+   word-wrap: normal;
+ }
+
  p {
  	padding: 0;
  	margin-bottom: 12px;
@@ -358,6 +364,15 @@
  	margin-bottom: 25px;
  }
 
+ ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    font-size: 10px;
+    }
+
+
+
  /*	################################################################
  	SITE WRAPS
  ################################################################# */
@@ -561,6 +576,13 @@
 
  .bgimg {
      background-image: url('../images/landing.png');
+ }
+
+ .sale {
+     background-color: #5fb523;
+     height: auto;
+     color: white;
+     font-size: 1.4em;
  }
 
  .spacing {

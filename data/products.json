@@ -16,7 +16,7 @@
     },
 
     {
-    "id": "goede_hoop",
+    "id": "cyber_goedehoop",
     "title": "Goede Hoop Magnum Pinotage 2002",
     "merchant": "Cybercellar.com",
     "url": "http://www.cybercellar.com/",
@@ -28,7 +28,7 @@
     },
 
     {
-    "id": "craft_beer",
+    "id": "cyber_beer",
     "title": "Local Craft Beer Mixed Offer",
     "merchant": "Cybercellar.com",
     "url": "http://www.cybercellar.com/",
@@ -40,7 +40,24 @@
       "homme_massage",
       "homme_massage"
     ]
+    },
+
+    {
+    "id": "mensroom_haircut",
+    "title": "Mens Haircut",
+    "merchant": "Mensroom",
+    "url": "http://www.mensroom.co.za/",
+    "description": "Men go in. Legends com out! Mensroom is always striving to give clients the best service.",
+    "pay": 180,
+    "retail": 240,
+    "terms_and_conditions": [
+      "Only 300 vouchers available",
+      "Only for men",
+      "One deal per client",
+      "ouchers expire 1 March 2016"
+    ]
     }
+
 
   ]
 }
