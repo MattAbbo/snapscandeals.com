@@ -14,7 +14,9 @@
           <% data.products.cape_town.each do |p| %>
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
-                    <img src="./img/products/cape-town/deal-1.png" alt="">
+                  <% link_to '/' do %>
+                    <%= image_tag 'products/cape-town/deal-1.png' , class: "header_logo" %>
+                  <% end %>
                     <div class="caption">
                         <h4><%= p.title %></h4>
                         <h5><%= link_to p.merchant, p.url %></h5>
@@ -36,7 +38,7 @@
                                 <tr align="center">
                                     <td><b><h3>R<%= p.pay %></h3></b>YOU PAY</td>
                                     <td><h3>R<%= p.retail %></h3>RETAIL</td>
-                                    <td><h3>R<%= p.retail - p.pay %> (<%= (((p.retail - p.pay).to_f)/p.retail).ceil * 100 %>%)</h3>YOU SAVE</td>
+                                    <td><h3>R<%= p.retail - p.pay %> (<%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%)</h3>YOU SAVE</td>
                                 </tr>
                             </tbody>
                         </table>
