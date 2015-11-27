@@ -1,20 +1,13 @@
+/*!
+ * SnapScan Deals HTML Template
+ */
+
+ /*@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
+ @import url(http://fonts.googleapis.com/css?family=Lato:400,900);*/
+ /*@import url("prettyPhoto.css") screen;
+ @import url("hoverex-all.css") screen;*/
+
 @charset "utf-8";
-
-/*body {
-  background: #d4d4d4 url("../images/background.png");
-  text-align: center;
-  font-family: sans-serif; }
-
-h1 {
-  color: rgba(0, 0, 0, .3);
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
 
 .doc {
   font-size: 14px;
@@ -52,38 +45,7 @@ h1 {
   to {
     -webkit-transform: scale(1);
   }
-}*/
-
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
-
-
-
- /*!
-  * SnapScan Deals HTML Template
-  */
-
-  /*@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-  @import url(http://fonts.googleapis.com/css?family=Lato:400,900);*/
-  /*@import url("prettyPhoto.css") screen;
-  @import url("hoverex-all.css") screen;*/
-
- body {
-     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
- }
+}
 
  .slide-image {
      width: 100%;
@@ -142,8 +104,6 @@ h1 {
      overflow: hidden;
  }
 
-
-
  .thumbnail .caption-full {
      padding: 9px 16px;
      color: #333;
@@ -185,7 +145,8 @@ h1 {
  	font-family: 'Montserrat', sans-serif;
  	font-weight: 400;
   font-size: 12px;
- 	}
+  font-family: sans-serif;
+  padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */ }
 
  h1, h2, h3, h4, h5, h6 {
  	font-family: 'Montserrat', sans-serif;
@@ -212,6 +173,7 @@ h1 {
  	padding: 0;
  	margin: 0;
  	text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
  	-webkit-transition: background-color .4s linear, color .4s linear;
  	-moz-transition: background-color .4s linear, color .4s linear;
  	-o-transition: background-color .4s linear, color .4s linear;
@@ -395,6 +357,7 @@ h1 {
  	border-bottom: 2px solid #ffffff;
  	margin-bottom: 25px;
  }
+
  /*	################################################################
  	SITE WRAPS
  ################################################################# */
@@ -405,10 +368,6 @@ h1 {
      padding-top: 30px;
      padding-bottom: 50px;
      text-align: center;
- }
-
- .bgimg {
-     background-image: url('../images/landing.png');
  }
 
  #headerwrap h3, h4, h5 {
@@ -600,6 +559,10 @@ h1 {
  	color: #f39c12
  }
 
+ .bgimg {
+     background-image: url('../images/landing.png');
+ }
+
  .spacing {
  	margin-top: 40px;
  	margin-bottom: 40px;
@@ -654,7 +617,7 @@ h1 {
  	}
 
  .popular-posts li em {
- 	font-family: 'Lato', sans-serif;
+ 	/*font-family: 'Lato', sans-serif;*/
  	font-size: 12px;
  	color: #b3b3b3
  	}

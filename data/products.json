@@ -1,0 +1,27 @@
+{
+  "cape_town": [
+    {
+    "id": "homme_massage",
+    "title": "Men's Massage",
+    "merchant": "Homme Spa",
+    "url": "https://www.facebook.com/hommemenspa",
+    "description": "An hour long massage at Homme, the professional skincare and grooming lounge for men",
+    "terms_and_conditions": [
+      "homme_massage",
+      "homme_massage",
+      "homme_massage"
+    ]
+    },
+
+    {
+    "id": "goede_hoop",
+    "title": "Goede Hoop Magnum Pinotage 2002",
+    "merchant": "Cybercellar.com",
+    "url": "http://www.cybercellar.com/",
+    "description": "A perfect gift for Xmas this season of an exclusive older vintage Pinotage from an award winning Stellenbosch estate. For best results decant before serving as magnum bottles tend to need more oxygen exposure, a harmless sediment may also be present due to the wine being an older vintage. Not for sale to persons under the age of 18.",
+    "terms_and_conditions": [
+    ]
+    }
+
+  ]
+}
