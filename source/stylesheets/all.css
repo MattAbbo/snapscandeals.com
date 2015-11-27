@@ -65,9 +65,9 @@
      overflow: hidden;
  }
 
- .caption h4 {
+ /*.caption h4 {
      white-space: nowrap;
- }
+ }*/
 
  div.absolute {
      position: absolute;
