@@ -34,9 +34,9 @@
                         <table class="table">
                             <tbody>
                                 <tr align="center">
-                                    <td><b><h3>R300</h3></b>YOU PAY</td>
-                                    <td><h3>R480</h3>RETAIL</td>
-                                    <td><h3>R180 (38%)</h3>YOU SAVE</td>
+                                    <td><b><h3>R<%= p.pay %></h3></b>YOU PAY</td>
+                                    <td><h3>R<%= p.retail %></h3>RETAIL</td>
+                                    <td><h3>R<%= p.retail - p.pay %> (<%= (((p.retail - p.pay).to_f)/p.retail).ceil * 100 %>%)</h3>YOU SAVE</td>
                                 </tr>
                             </tbody>
                         </table>
