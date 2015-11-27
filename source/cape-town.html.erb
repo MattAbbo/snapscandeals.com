@@ -14,7 +14,7 @@
           <% data.products.cape_town.each do |p| %>
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
-                  <%= image_tag 'products/cape-town/deal-1.png' %>
+                  <%= image_tag "products/cape-town/#{p.id}.png" %>
                     <div class="caption">
                         <h4><%= p.title %></h4>
                         <h5><%= link_to p.merchant, p.url %></h5>
@@ -48,7 +48,7 @@
                         </p>
                     </div>
                     <div>
-                        <img class="hidden-xs" src="./img/products/cape-town/qr-1.png" alt="">
+                        <%= image_tag "products/cape-town/#{p.id}_qr.png" %>
                     </div>
                 </div>
             </div>
