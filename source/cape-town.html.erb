@@ -22,16 +22,18 @@
                         <p><%= p.description %></p>
 
                         <!-- TERMS AND CONDITIONS -->
-                        <i>Terms and Conditions:
+                        <!-- <i>Terms and Conditions:
                         <ul>
                           <% p.terms_and_conditions.each do |f| %>
                             <li><%= f %></li>
                           <% end %>
                         </ul>
-                        </i>
+                        </i> -->
                     </div>
+                    <div align="center" valign="center" class="sale"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
+                    <br>
 
-                    <div class="table-responsive">
+                    <!-- <div class="table-responsive">
                         <table class="table">
                             <tbody>
                                 <tr align="center">
@@ -41,7 +43,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
 
                     <div class="ratings">
                         <p class="visible-xs" align="center">
@@ -49,7 +51,7 @@
                         </p>
                     </div>
                     <div>
-                        <%= image_tag "products/cape-town/#{p.id}_qr.png" %>
+                        <%= image_tag "products/cape-town/#{p.id}_qr.png", :class => "hidden-xs" %>
                     </div>
                 </div>
             </div>
