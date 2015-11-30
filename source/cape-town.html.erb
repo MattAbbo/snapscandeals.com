@@ -36,7 +36,7 @@
                     <br>
 
                     <div class="ratings" align="right" class="visible-xs">
-                      <%= link_to '<button class="btn btn-primary">Buy with SnapScan</button>', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "btn btn-primary", :class => "visible-xs", :target => '_blank' %>
+                      <%= link_to '<button class="btn btn-primary">Buy with SnapScan</button>', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "visible-xs", :target => '_blank' %>
                     </div>
                     <div>
                       <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>

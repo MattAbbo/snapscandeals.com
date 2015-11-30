@@ -26,7 +26,7 @@ title: Home
                 <div class="row">
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                          <div align="center" valign="center" class="location-banner">Cape Town</div>
+                          <div align="center" valign="center" class="location-banner"><%= link_to 'Cape Town','/cape-town', :class => "location-link" %></div>
                             <% link_to '/cape-town' do %>
                               <%= image_tag 'cape-town.png' %>
                             <% end %>
@@ -35,7 +35,7 @@ title: Home
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                          <div align="center" valign="center" class="location-banner">Johannesburg</div>
+                          <div align="center" valign="center" class="location-banner"><%= link_to 'Johannesburg','/johannesburg', :class => "location-link" %></div>
                             <% link_to '/johannesburg' do %>
                               <%= image_tag 'johannesburg.png' %>
                             <% end %>
@@ -45,7 +45,7 @@ title: Home
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                          <div align="center" valign="center" class="location-banner">Centurion</div>
+                          <div align="center" valign="center" class="location-banner"><%= link_to 'Centurion','/centurion', :class => "location-link" %></div>
                           <% link_to '/centurion' do %>
                             <%= image_tag 'centurion.png' %>
                           <% end %>
