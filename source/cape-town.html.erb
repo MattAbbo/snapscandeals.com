@@ -14,14 +14,25 @@
           <% data.cape_town.products.each do |p| %>
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
-                  <%= image_tag "products/cape-town/#{p.id}.png" %>
+                  <%= image_tag "products/#{p.id}.png" %>
                   <div align="center" valign="center" class="sale-banner">SAVE <%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%</div>
                     <div class="caption">
                         <h4><%= p.title %></h4>
                         <h5><%= link_to p.merchant, p.url %></h5>
                         <p>
                           <%= p.description %>
+                          <!-- MODAL BUTTON -->
                           <!-- <%= link_to '<a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">View Terms and Conditions</a>' %> -->
+                          <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Terms and Conditions" data-content="
+                          And here's some amazing content. It's very engaging. Right?">
+                            View Terms and Conditions
+                          </button> -->
+                          <p class="tcs">Terms and conditions</p>
+                          <ul>
+                            <% p.terms_and_conditions.each do |f| %>
+                              <li><%= f %></li>
+                            <% end %>
+                          </ul>
 
                         </p>
 
@@ -54,13 +65,11 @@
                     <div align="right" valign="center" class="pricing-banner"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
                     <br>
 
-                    <div class="ratings">
-                        <p class="visible-xs" align="right">
-                            <a href="https://pos.snapscan.io/qr/SSDeals?&amount=30000&id=Homme_Massage" target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>
-                        </p>
+                    <div class="ratings" align="right" >
+                          <%= button_to '<a target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "btn btn-primary" %>
                     </div>
                     <div>
-                        <%= image_tag "products/cape-town/#{p.id}_qr.png", :class => "hidden-xs" %>
+                        <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>
                     </div>
                 </div>
             </div>

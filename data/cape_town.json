@@ -2,6 +2,7 @@
   "products": [
     {
     "id": "homme_massage",
+    "merchantId": "SSDeals",
     "title": "Men's Massage",
     "merchant": "Homme Spa",
     "url": "https://www.facebook.com/hommemenspa",
@@ -18,18 +19,21 @@
 
     {
     "id": "cyber_goedehoop",
+    "merchantId": "8tzKIicG",
     "title": "Goede Hoop Magnum Pinotage 2002",
     "merchant": "Cybercellar.com",
     "url": "http://www.cybercellar.com/",
-    "description": "A perfect gift for Xmas this season of an exclusive older vintage Pinotage from an award winning Stellenbosch estate. Not for sale to persons under the age of 18.",
+    "description": "A perfect gift for Xmas this season of an exclusive older vintage Pinotage from an award winning Stellenbosch estate.",
     "pay": 250,
     "retail": 400,
     "terms_and_conditions": [
+      "Not for sale to persons under the age of 18."
     ]
     },
 
     {
     "id": "cyber_beer",
+    "merchantId": "8tzKIicG",
     "title": "Local Craft Beer Mixed Offer",
     "merchant": "Cybercellar.com",
     "url": "http://www.cybercellar.com/",
@@ -37,14 +41,13 @@
     "pay": 495,
     "retail": 650,
     "terms_and_conditions": [
-      "homme_massage",
-      "homme_massage",
-      "homme_massage"
+      "Not for sale to persons under the age of 18."
     ]
     },
 
     {
     "id": "mensroom_haircut",
+    "merchantId": "SSDeals",
     "title": "Mens Haircut",
     "merchant": "Mensroom",
     "url": "http://www.mensroom.co.za/",
@@ -61,6 +64,7 @@
 
       {
       "id": "homme_tan",
+      "merchantId": "SSDeals",
       "title": "Spray Tan",
       "merchant": "Homme Spa",
       "url": "https://www.facebook.com/hommemenspa",
@@ -77,6 +81,7 @@
 
     {
     "id": "phatsam_tan",
+    "merchantId": "SSDeals",
     "title": "Full Body Brilliant Tan",
     "merchant": "Mensroom",
     "url": "https://www.facebook.com/Phat-Sam-Studio-178266982263891/",
@@ -93,6 +98,7 @@
 
     {
     "id": "phatsam_eyelashes",
+    "merchantId": "SSDeals",
     "title": "Individual Eyelash Extensions",
     "merchant": "Phatsam",
     "url": "https://www.facebook.com/Phat-Sam-Studio-178266982263891/",

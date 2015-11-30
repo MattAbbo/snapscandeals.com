@@ -2,6 +2,7 @@
   "products": [
     {
     "id": "lashdivas_eyelash",
+    "merchantId": "SSDeals",
     "title": "Individual Eyelash Extensions",
     "merchant": "The Lash Divas",
     "url": "https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts",
@@ -9,11 +10,13 @@
     "pay": 600,
     "retail": 800,
     "terms_and_conditions": [
+      "Available in Centurion."
     ]
     },
 
     {
     "id": "lashdivas_volume",
+    "merchantId": "SSDeals",
     "title": "Volume Lash Extensions",
     "merchant": "The Lash Divas",
     "url": "https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts",
@@ -21,6 +24,7 @@
     "pay": 850,
     "retail": 1200,
     "terms_and_conditions": [
+      "Available in Centurion."
     ]
   }
 

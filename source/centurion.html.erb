@@ -1,4 +1,4 @@
-<!-- Page Content -->
+
 <div class="container">
 
         <div class="row">
@@ -11,37 +11,44 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-2 col-lg-2 col-md-2">
-          </div>
-
           <% data.centurion.products.each do |p| %>
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
-                  <%= image_tag "products/centurion/#{p.id}.png" %>
+                  <%= image_tag "products/#{p.id}.png" %>
                   <div align="center" valign="center" class="sale-banner">SAVE <%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%</div>
                     <div class="caption">
                         <h4><%= p.title %></h4>
                         <h5><%= link_to p.merchant, p.url %></h5>
-                        <p><%= p.description %></p>
-                    </div>
+                        <p>
+                          <%= p.description %>
+                          
+                          <p class="tcs">Terms and conditions</p>
+                          <ul>
+                            <% p.terms_and_conditions.each do |f| %>
+                              <li><%= f %></li>
+                            <% end %>
+                          </ul>
 
+                        </p>
+
+
+                    </div>
                     <div align="right" valign="center" class="pricing-banner"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
                     <br>
 
                     <div class="ratings">
                         <p class="visible-xs" align="right">
-                            <a href="https://pos.snapscan.io/qr/SSDeals?&amount=30000&id=Homme_Massage" target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>
+                            <%= link_to 'Buy with SnapScan', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "visible-xs" "btn btn-primary" %>
                         </p>
                     </div>
                     <div>
-                        <%= image_tag "products/centurion/#{p.id}_qr.png", :class => "hidden-xs" %>
+                        <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>
                     </div>
                 </div>
             </div>
           <% end %>
 
-          <div class="col-sm-2 col-lg-2 col-md-2">
-          </div>
+
 
         </div> <!-- END ROW -->
 

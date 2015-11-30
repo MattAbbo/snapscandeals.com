@@ -61,7 +61,7 @@
  }
 
  .caption {
-     height: 162px;
+     height: 200px;
      overflow: hidden;
      /*min-height: auto;*/
  }
@@ -176,6 +176,17 @@
   line-height: 18px;
  	color: #384452;
  	margin-top: 10px;
+ }
+
+ .tcs {
+   padding: 0;
+   margin-bottom: 2px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 100;
+   font-size: 8px;
+   line-height: 18px;
+   color: #384452;
+   margin-top: 10px;
  }
 
  img {
@@ -326,7 +337,7 @@
    border-color: #00b3fe;
  }
 
- .close:hover
+ /*.close:hover*/
 
  .dmbutton:hover,
  .dmbutton:active,
@@ -387,7 +398,7 @@
     margin-top: 0;
     margin-bottom: 10px;
     margin-left: 16px;
-    font-size: 14px;
+    font-size: 8px;
     }
 
 

@@ -2,15 +2,45 @@
   "products": [
     {
     "id": "xavier_hair",
+    "merchantId": "SSDeals",
     "title": "Hair Treatment",
     "merchant": "Xavier Mobile Stylist",
     "url": "https://www.facebook.com/xaviermobilestylist/",
-    "description": "Brasil CACAU's exclusive formula combines rich natural raw material and incorporates the latest BRAZILIAN KERATIN technology. Brazil CACAU reinforces the internal structure and improves the condition of the hair.",
+    "description": "Brazil CACAU reinforces the internal structure and improves the condition of the hair.",
     "pay": 550,
     "retail": 1000,
     "terms_and_conditions": [
+      "Available in areas across JHB."
     ]
-    }
+  },
+
+  {
+  "id": "cyber_goedehoop",
+  "merchantId": "8tzKIicG",
+  "title": "Goede Hoop Magnum Pinotage 2002",
+  "merchant": "Cybercellar.com",
+  "url": "http://www.cybercellar.com/",
+  "description": "A perfect gift for Xmas this season of an exclusive older vintage Pinotage from an award winning Stellenbosch estate.",
+  "pay": 250,
+  "retail": 400,
+  "terms_and_conditions": [
+    "Not for sale to persons under the age of 18."
+  ]
+  },
+
+  {
+  "id": "cyber_beer",
+  "merchantId": "8tzKIicG",
+  "title": "Local Craft Beer Mixed Offer",
+  "merchant": "Cybercellar.com",
+  "url": "http://www.cybercellar.com/",
+  "description": "A 24 bottle tasting journey of some of SA's hottest craft beers around town. Not for sale to persons under the age of 18.",
+  "pay": 495,
+  "retail": 650,
+  "terms_and_conditions": [
+    "Not for sale to persons under the age of 18."
+  ]
+  }
 
   ]
 }
