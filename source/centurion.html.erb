@@ -1,139 +1,48 @@
-    <!-- Page Content -->
-    <div class="container">
+<!-- Page Content -->
+<div class="container">
 
-            <div class="row">
-            <div class="col-md-12">
-
-                <div class="row">
+        <div class="row">
+          <div class="col-md-12">
+              <div class="row">
                 <h2 align="center">CENTURION</h2>
                 <br>
-            </div>
-            </div>
-
-
-                <div class="row">
-
-                    <div class="col-sm-2 col-lg-2 col-md-2">
-                    </div>
-
-                    <!-- PRODUCT -->
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="./img/products/centurion/deal-1.png" alt="">
-                            <div class="caption">
-
-                                <h4>Individual Eyelash Extensions</h4>
-                                <h5><a href="https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts">Lash Divas - Centurion</a></h5>
-                                <p>Getting individual eyelash extensions are when you attach a lash to each and every natural lash to extend the look of natural lashes to a longer fuller look.</p>
-                                <br>
-
-
-                                <!-- TERMS AND CONDITIONS -->
-                                <!-- i><b>Terms and Conditions:</b>
-                                <ul>
-                                    <li>Appointments Monday - Friday, 09:00 - 18:00</li>
-                                    <li>First time clients @ Phat Sam Studio</li>
-                                    <li>One Deal per client.</li>
-                                    <li>Ladies only (or the perfect gift for a lady friend)</li>
-                                </ul>
-                                </i> -->
-
-                            </div>
-
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tbody>
-                                        <tr align="center">
-                                            <td><b><h3>R600</h3></b>YOU PAY</td>
-                                            <td><h3>R800</h3>RETAIL</td>
-                                            <td><h3>R200 (25%)</h3>YOU SAVE</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <div class="ratings">
-                                <p class="visible-xs" align="center">
-                                    <a href="https://pos.snapscan.io/qr/SSDeals?&amount=60000&id=Lash_Diva_Eyelash_Extension" target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>
-                                </p>
-                            </div>
-                            <div>
-                                <img class="hidden-xs" src="./img/products/centurion/qr-1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- PRODUCT -->
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="./img/products/centurion/deal-2.png" alt="">
-                            <div class="caption">
-
-                                <h4>Volume Lash Extensions</h4>
-                                <h5><a href="https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts">Lash Divas - Centurion</a></h5>
-                                <p>Volume says it all. This will make your own lashes look fuller and are light weight, from a 2D to 7D in variety. This is an advanced technique to fan every lash to make your lashes appear fuller. A mastered skill that is taking the market by storm overseas.</p>
-
-                                <!-- TERMS AND CONDITIONS -->
-
-<!--                                 <i><b>Terms and Conditions:</b>
-                                <ul>
-                                    <li>Appointments Monday - Friday, 09:00 - 18:00</li>
-                                    <li>First time clients @ Phat Sam Studio</li>
-                                    <li>One Deal per client.</li>
-                                    <li>Ladies only (or the perfect gift for a lady friend)</li>
-                                </ul>
-                                </i> -->
-
-                                <!-- <p type="button" data-toggle="modal" data-target=".bs-example-modal-sm"><a><i>Terms and Conditions</i></a></p>
-
-                                <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                                  <div class="modal-dialog modal-sm">
-                                    <div class="modal-content">
-                                    <h4 class="modal-title" id="myModalLabel">Terms and Conditions</h4>
-                                          <div class="modal-body">
-                                            <ul>
-                                                <li>Appointments Monday - Friday, 09:00 - 18:00</li>
-                                                <li>First time clients @ Phat Sam Studio</li>
-                                                <li>One Deal per client.</li>
-                                            </ul>
-                                          </div>
-                                    </div>
-                                  </div>
-                                </div> -->
-                            </div>
-
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tbody>
-                                        <tr align="center">
-                                            <td><b><h3>R850</h3></b>YOU PAY</td>
-                                            <td><h3>R1200</h3>RETAIL</td>
-                                            <td><h3>R350 (30%)</h3>YOU SAVE</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <div class="ratings">
-                                <p class="visible-xs" align="center">
-                                    <a href="https://pos.snapscan.io/qr/SSDeals?&amount=85000&id=Lash_Diva_Volume_Extentions" target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>
-                                </p>
-                            </div>
-                            <div>
-                                <img class="hidden-xs" src="./img/products/centurion/qr-2.png" alt="">
-                            </div>
-                            </div>
-                        </div>
-
-
-                </div>
-
-                <div class="col-sm-2 col-lg-2 col-md-2">
-                </div>
-
-
-
+              </div>
+          </div>
         </div>
 
+        <div class="row">
+          <% data.centurion.products.each do |p| %>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <%= image_tag "products/centurion/#{p.id}.png" %>
+                  <div align="center" valign="center" class="sale-banner">SAVE <%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%</div>
+                    <div class="caption">
+                        <h4><%= p.title %></h4>
+                        <h5><%= link_to p.merchant, p.url %></h5>
+                        <p><%= p.description %></p>
+                    </div>
+
+                    <div align="right" valign="center" class="pricing-banner"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
+                    <br>
+
+                    <div class="ratings">
+                        <p class="visible-xs" align="center">
+                            <a href="https://pos.snapscan.io/qr/SSDeals?&amount=30000&id=Homme_Massage" target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>
+                        </p>
+                    </div>
+                    <div>
+                        <%= image_tag "products/centurion/#{p.id}_qr.png", :class => "hidden-xs" %>
+                    </div>
+                </div>
+            </div>
+          <% end %>
+
+
+
+        </div> <!-- END ROW -->
+
+
+
     </div>
-    <!-- /.container -->
+
+</div>

@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+    "id": "lashdivas_eyelash",
+    "title": "Individual Eyelash Extensions",
+    "merchant": "The Lash Divas",
+    "url": "https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts",
+    "description": "Getting individual eyelash extensions are when you attach a lash to each and every natural lash to extend the look of natural lashes to a longer fuller look.",
+    "pay": 600,
+    "retail": 800,
+    "terms_and_conditions": [
+    ]
+    },
+
+    {
+    "id": "lashdivas_volume",
+    "title": "Volume Lash Extensions",
+    "merchant": "The Lash Divas",
+    "url": "https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts",
+    "description": "Volume says it all. This will make your own lashes look fuller and are light weight, from a 2D to 7D in variety. This is an advanced technique to fan every lash to make your lashes appear fuller.",
+    "pay": 850,
+    "retail": 1200,
+    "terms_and_conditions": [
+    ]
+  }
+
+  ]
+}

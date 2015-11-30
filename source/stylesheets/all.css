@@ -61,8 +61,9 @@
  }
 
  .caption {
-     height: 180px;
+     height: 162px;
      overflow: hidden;
+     /*min-height: auto;*/
  }
 
  /*.caption h4 {
@@ -83,6 +84,7 @@
 
  .thumbnail img {
      width: 100%;
+     min-height: auto;
  }
 
 .thumbnail h4 {
@@ -151,6 +153,12 @@
  h1, h2, h3, h4, h5, h6 {
  	font-family: 'Montserrat', sans-serif;
  	font-weight: 700;
+ }
+
+ h1
+ {
+   font-size: 3em;
+   word-wrap: normal;
  }
 
  h4
@@ -256,10 +264,15 @@
  	border-color: transparent;
  }
 
+ .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
  .header_logo
 {
-	height: 32px;
-	padding-top: 6px;
+  height: 42px;
+  padding-top: 6px;
+  padding-left: 16px;
 }
 
  .dropdown-menu {
@@ -589,11 +602,21 @@
      font-size: 1.5em;
  }
 
+ .location-banner {
+     background-color: #5fb523;
+     height: auto;
+     color: white;
+     font-size: 1.5em;
+     padding-bottom: 6px;
+     padding-top: 6px;
+ }
+
  .pricing-banner {
      /*background-color: #143f70;*/
      height: auto;
      color: black;
      font-size: 1.5em;
+     padding-right: 16px;
  }
 
  .spacing {

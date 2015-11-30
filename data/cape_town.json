@@ -1,0 +1,111 @@
+{
+  "products": [
+    {
+    "id": "homme_massage",
+    "title": "Men's Massage",
+    "merchant": "Homme Spa",
+    "url": "https://www.facebook.com/hommemenspa",
+    "description": "An hour long massage at Homme, the professional skincare and grooming lounge for men",
+    "pay": 300,
+    "retail": 480,
+    "terms_and_conditions": [
+      "Only 40 vouchers available",
+      "Only for men",
+      "One deal per client",
+      "Vouchers expire 1 June 2016"
+    ]
+    },
+
+    {
+    "id": "cyber_goedehoop",
+    "title": "Goede Hoop Magnum Pinotage 2002",
+    "merchant": "Cybercellar.com",
+    "url": "http://www.cybercellar.com/",
+    "description": "A perfect gift for Xmas this season of an exclusive older vintage Pinotage from an award winning Stellenbosch estate. Not for sale to persons under the age of 18.",
+    "pay": 250,
+    "retail": 400,
+    "terms_and_conditions": [
+    ]
+    },
+
+    {
+    "id": "cyber_beer",
+    "title": "Local Craft Beer Mixed Offer",
+    "merchant": "Cybercellar.com",
+    "url": "http://www.cybercellar.com/",
+    "description": "A 24 bottle tasting journey of some of SA's hottest craft beers around town. Not for sale to persons under the age of 18.",
+    "pay": 495,
+    "retail": 650,
+    "terms_and_conditions": [
+      "homme_massage",
+      "homme_massage",
+      "homme_massage"
+    ]
+    },
+
+    {
+    "id": "mensroom_haircut",
+    "title": "Mens Haircut",
+    "merchant": "Mensroom",
+    "url": "http://www.mensroom.co.za/",
+    "description": "Men go in. Legends com out! Mensroom is always striving to give clients the best service.",
+    "pay": 180,
+    "retail": 240,
+    "terms_and_conditions": [
+      "Only 300 vouchers available",
+      "Only for men",
+      "One deal per client",
+      "Vouchers expire 1 March 2016"
+    ]
+  },
+
+      {
+      "id": "homme_tan",
+      "title": "Spray Tan",
+      "merchant": "Homme Spa",
+      "url": "https://www.facebook.com/hommemenspa",
+      "description": "Organic, no fragrance spray tan that dries instantly and lasts for up to 2 weeks!",
+      "pay": 180,
+      "retail": 240,
+      "terms_and_conditions": [
+        "Only 40 vouchers available",
+        "Available for both genders",
+        "One deal per client",
+        "Vouchers expire 1 June 2016"
+      ]
+    },
+
+    {
+    "id": "phatsam_tan",
+    "title": "Full Body Brilliant Tan",
+    "merchant": "Mensroom",
+    "url": "https://www.facebook.com/Phat-Sam-Studio-178266982263891/",
+    "description": "Full Body Brilliant Tan SprayTan, including a Metallic Tattoo Sheet",
+    "pay": 250,
+    "retail": 350,
+    "terms_and_conditions": [
+      "Only 20 vouchers available",
+      "Only for men",
+      "One deal per client",
+      "Vouchers expire 1 March 2016"
+    ]
+    },
+
+    {
+    "id": "phatsam_eyelashes",
+    "title": "Individual Eyelash Extensions",
+    "merchant": "Phatsam",
+    "url": "https://www.facebook.com/Phat-Sam-Studio-178266982263891/",
+    "description": "Full Set Individual Application Eyelash Extensions, including a Brow Tint & Tidy & an EyeSlices Treatment",
+    "pay": 250,
+    "retail": 350,
+    "terms_and_conditions": [
+      "Only 20 vouchers available",
+      "Appointments Monday - Friday, 09:00 - 18:00",
+      "One deal per first time client",
+      "Ladies only (or the perfect gift for a lady friend)"
+    ]
+    }
+
+  ]
+}

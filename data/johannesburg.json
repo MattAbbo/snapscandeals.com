@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+    "id": "xavier_hair",
+    "title": "Hair Treatment",
+    "merchant": "Xavier Mobile Stylist",
+    "url": "https://www.facebook.com/xaviermobilestylist/",
+    "description": "Brasil CACAU's exclusive formula combines rich natural raw material and incorporates the latest BRAZILIAN KERATIN technology. Brazil CACAU reinforces the internal structure and improves the condition of the hair.",
+    "pay": 550,
+    "retail": 1000,
+    "terms_and_conditions": [
+    ]
+    }
+
+  ]
+}
