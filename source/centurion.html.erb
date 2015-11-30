@@ -21,7 +21,7 @@
                         <h5><%= link_to p.merchant, p.url %></h5>
                         <p>
                           <%= p.description %>
-                          
+
                           <p class="tcs">Terms and conditions</p>
                           <ul>
                             <% p.terms_and_conditions.each do |f| %>
@@ -36,10 +36,8 @@
                     <div align="right" valign="center" class="pricing-banner"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
                     <br>
 
-                    <div class="ratings">
-                        <p class="visible-xs" align="right">
-                            <%= link_to 'Buy with SnapScan', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "visible-xs" "btn btn-primary" %>
-                        </p>
+                    <div class="ratings" align="right" >
+                          <%= button_to 'Buy with SnapScan', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "btn btn-primary" %>
                     </div>
                     <div>
                         <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>

@@ -1,20 +1,6 @@
 {
   "products": [
     {
-    "id": "lashdivas_eyelash",
-    "merchantId": "SSDeals",
-    "title": "Individual Eyelash Extensions",
-    "merchant": "The Lash Divas",
-    "url": "https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts",
-    "description": "Getting individual eyelash extensions are when you attach a lash to each and every natural lash to extend the look of natural lashes to a longer fuller look.",
-    "pay": 600,
-    "retail": 800,
-    "terms_and_conditions": [
-      "Available in Centurion."
-    ]
-    },
-
-    {
     "id": "lashdivas_volume",
     "merchantId": "SSDeals",
     "title": "Volume Lash Extensions",
@@ -26,7 +12,49 @@
     "terms_and_conditions": [
       "Available in Centurion."
     ]
-  }
+  },
+
+  {
+  "id": "cyber_beer",
+  "merchantId": "8tzKIicG",
+  "title": "Local Craft Beer Mixed Offer",
+  "merchant": "Cybercellar.com",
+  "url": "http://www.cybercellar.com/",
+  "description": "A 24 bottle tasting journey of some of SA's hottest craft beers around town. Not for sale to persons under the age of 18.",
+  "pay": 495,
+  "retail": 650,
+  "terms_and_conditions": [
+    "Not for sale to persons under the age of 18."
+  ]
+},
+
+{
+"id": "cyber_goedehoop",
+"merchantId": "8tzKIicG",
+"title": "Goede Hoop Magnum Pinotage 2002",
+"merchant": "Cybercellar.com",
+"url": "http://www.cybercellar.com/",
+"description": "A perfect gift for Xmas this season of an exclusive older vintage Pinotage from an award winning Stellenbosch estate.",
+"pay": 250,
+"retail": 400,
+"terms_and_conditions": [
+  "Not for sale to persons under the age of 18."
+]
+},
+
+{
+"id": "lashdivas_eyelash",
+"merchantId": "SSDeals",
+"title": "Individual Eyelash Extensions",
+"merchant": "The Lash Divas",
+"url": "https://www.facebook.com/The-Lash-Diva-222198757838760/?fref=ts",
+"description": "Getting individual eyelash extensions are when you attach a lash to each and every natural lash to extend the look of natural lashes to a longer fuller look.",
+"pay": 600,
+"retail": 800,
+"terms_and_conditions": [
+  "Available in Centurion."
+]
+}
 
   ]
 }
