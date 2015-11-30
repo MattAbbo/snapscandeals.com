@@ -276,13 +276,13 @@
 }
 
  .dropdown-menu {
- 	background: #384452;
+ 	background: #3778c2;
  }
 
  .dropdown-menu > li > a {
  	color: white;
  	font-weight: 700;
- 	font-size: 12px;
+ 	font-size: 14px;
  }
 
 .btn {
@@ -325,6 +325,8 @@
    background-color: #ffffff;
    border-color: #00b3fe;
  }
+
+ .close:hover
 
  .dmbutton:hover,
  .dmbutton:active,
@@ -385,7 +387,7 @@
     margin-top: 0;
     margin-bottom: 10px;
     margin-left: 16px;
-    font-size: 10px;
+    font-size: 14px;
     }
 
 

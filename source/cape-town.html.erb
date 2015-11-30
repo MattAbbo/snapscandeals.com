@@ -1,4 +1,4 @@
-<!-- Page Content -->
+
 <div class="container">
 
         <div class="row">
@@ -19,34 +19,43 @@
                     <div class="caption">
                         <h4><%= p.title %></h4>
                         <h5><%= link_to p.merchant, p.url %></h5>
-                        <p><%= p.description %></p>
+                        <p>
+                          <%= p.description %>
+                          <!-- <%= link_to '<a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">View Terms and Conditions</a>' %> -->
 
-                        <!-- TERMS AND CONDITIONS -->
-                        <!-- <i>Terms and Conditions:
-                        <ul>
-                          <% p.terms_and_conditions.each do |f| %>
-                            <li><%= f %></li>
-                          <% end %>
-                        </ul>
-                        </i> -->
+                        </p>
+
+                        <!-- MODAL -->
+                        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="exampleModalLabel">Terms and Conditions</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="form-group">
+                                    <ul>
+                                      <% p.terms_and_conditions.each do |f| %>
+                                        <li><%= f %></li>
+                                      <% end %>
+                                    </ul>
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close</span></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+
+
                     </div>
                     <div align="right" valign="center" class="pricing-banner"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
                     <br>
 
-                    <!-- <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                                <tr align="center">
-                                    <td><b><h3>R<%= p.pay %></h3></b>YOU PAY</td>
-                                    <td><h3>R<%= p.retail %></h3>RETAIL</td>
-                                    <td><h3>R<%= p.retail - p.pay %> (<%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%)</h3>YOU SAVE</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> -->
-
                     <div class="ratings">
-                        <p class="visible-xs" align="center">
+                        <p class="visible-xs" align="right">
                             <a href="https://pos.snapscan.io/qr/SSDeals?&amount=30000&id=Homme_Massage" target="_blank" class="btn btn-primary">Buy with SnapScan</b></a>
                         </p>
                     </div>
