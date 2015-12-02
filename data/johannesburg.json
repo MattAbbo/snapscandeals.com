@@ -40,7 +40,21 @@
   "terms_and_conditions": [
     "Not for sale to persons under the age of 18."
   ]
-  }
+},
+
+{
+"id": "salonexquisite_toes",
+"merchantId": "SSDeals",
+"title": "Jessica Gel Colour Toes",
+"merchant": "Salon Exquisite",
+"url": "http://www.looklocal.co.za/listing/exquisite-beauty-salon--5388997c041a5.html",
+"description": "Book for a full set of Fibre or Silk nails and receive a FREE Jessica Gel colour overlay on your toes. Salon Exquisite specialises in Silk/Fibre nails.",
+"pay": 250,
+"retail": 450,
+"terms_and_conditions": [
+  "Conditional on booking of Fibre or Silk nails."
+]
+}
 
   ]
 }

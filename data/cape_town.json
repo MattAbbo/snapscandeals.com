@@ -48,10 +48,10 @@
     {
     "id": "mensroom_haircut",
     "merchantId": "SSDeals",
-    "title": "Mens Haircut",
+    "title": "The Professional",
     "merchant": "Mensroom",
     "url": "http://www.mensroom.co.za/",
-    "description": "Men go in. Legends com out! Mensroom is always striving to give clients the best service.",
+    "description": "The Professional Package consists of a haircut, scalp massage shampoo, hot-towel shave OR hot-towel facial.",
     "pay": 180,
     "retail": 240,
     "terms_and_conditions": [
@@ -77,41 +77,6 @@
         "One deal per client",
         "Vouchers expire 1 June 2016"
       ]
-    },
-
-    {
-    "id": "phatsam_tan",
-    "merchantId": "SSDeals",
-    "title": "Full Body Brilliant Tan",
-    "merchant": "Mensroom",
-    "url": "https://www.facebook.com/Phat-Sam-Studio-178266982263891/",
-    "description": "Full Body Brilliant Tan SprayTan, including a Metallic Tattoo Sheet",
-    "pay": 250,
-    "retail": 350,
-    "terms_and_conditions": [
-      "Only 20 vouchers available",
-      "Only for men",
-      "One deal per client",
-      "Vouchers expire 1 March 2016"
-    ]
-    },
-
-    {
-    "id": "phatsam_eyelashes",
-    "merchantId": "SSDeals",
-    "title": "Individual Eyelash Extensions",
-    "merchant": "Phatsam",
-    "url": "https://www.facebook.com/Phat-Sam-Studio-178266982263891/",
-    "description": "Full Set Individual Application Eyelash Extensions, including a Brow Tint & Tidy & an EyeSlices Treatment",
-    "pay": 250,
-    "retail": 350,
-    "terms_and_conditions": [
-      "Only 20 vouchers available",
-      "Appointments Monday - Friday, 09:00 - 18:00",
-      "One deal per first time client",
-      "Ladies only (or the perfect gift for a lady friend)"
-    ]
     }
-
   ]
 }

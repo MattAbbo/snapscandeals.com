@@ -4,14 +4,14 @@
         <div class="row">
           <div class="col-md-12">
               <div class="row">
-                <h2 align="center">CENTURION</h2>
+                <h2 align="center">NORTHERN SUBURBS</h2>
                 <br>
               </div>
           </div>
         </div>
 
         <div class="row">
-          <% data.centurion.products.each do |p| %>
+          <% data.northern_suburbs.products.each do |p| %>
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
                   <%= image_tag "products/#{p.id}.png" %>
@@ -31,7 +31,6 @@
 
                         </p>
 
-
                     </div>
                     <div align="right" valign="center" class="pricing-banner"><b>Only R<%= p.pay %> </b><i><strike>Was R<%= p.retail %></strike></i></div>
                     <br>
@@ -40,7 +39,7 @@
                       <%= link_to '<button class="btn btn-primary">Buy with SnapScan</button>', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "visible-xs", :target => '_blank' %>
                     </div>
                     <div>
-                        <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>
+                      <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>
                     </div>
                 </div>
             </div>
