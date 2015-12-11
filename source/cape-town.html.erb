@@ -39,7 +39,19 @@
                       <%= link_to '<button class="btn btn-primary">Buy with SnapScan</button>', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "visible-xs", :target => '_blank' %>
                     </div>
                     <div>
-                      <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %>
+                      <!-- <a href="https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}">
+                        <img src="https://pos.snapscan.io/qr/#{p.merchantId}.svg?&amount=#{p.pay}00&id=#{p.id}&snap_code_size=125">
+                      </a> -->
+
+                      <!-- <a href="https://pos.snapscan.io/qr/shopalot?id=Ord123&amount=1000">
+                        <img src="https://pos.snapscan.io/qr/shopalot.svg?id=Ord123&amount=1000&snap_code_size=125">
+                      </a> -->
+
+
+                        <%= image_tag "https://pos.snapscan.io/qr/#{p.merchantId}.svg?&amount=#{p.pay}00&id=#{p.id}&snap_code_size=125", :class => "hidden-xs" %>
+
+                      <!-- <%= image_tag "products/#{p.id}_qr.png", :class => "hidden-xs" %> -->
+
                     </div>
                 </div>
             </div>
