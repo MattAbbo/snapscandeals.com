@@ -39,15 +39,9 @@
                       <%= link_to '<button class="btn btn-primary">Buy with SnapScan</button>', "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "visible-xs", :target => '_blank' %>
                     </div>
                     <div>
-                      <!-- <a href="https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}">
-                        <img src="https://pos.snapscan.io/qr/#{p.merchantId}.svg?&amount=#{p.pay}00&id=#{p.id}&snap_code_size=125">
-                      </a> -->
 
-                      <!-- <a href="https://pos.snapscan.io/qr/shopalot?id=Ord123&amount=1000">
-                        <img src="https://pos.snapscan.io/qr/shopalot.svg?id=Ord123&amount=1000&snap_code_size=125">
-                      </a> -->
-
-                      <%= link_to "#{image_tag("https://pos.snapscan.io/qr/#{p.merchantId}.svg?&amount=#{p.pay}00&id=#{p.id}&snap_code_size=125")}", "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "hidden-xs" %>
+                    <div align="center" valign="center" class="sale-banner">SAVE <%= (((p.retail - p.pay).to_f / p.retail) * 100).ceil %>%</div>
+                    <%= link_to "#{image_tag("https://pos.snapscan.io/qr/#{p.merchantId}.svg?&amount=#{p.pay}00&id=#{p.id}&snap_code_size=250")}", "https://pos.snapscan.io/qr/#{p.merchantId}?&amount=#{p.pay}00&id=#{p.id}", :class => "hidden-xs" %>
 
                     </div>
                 </div>
